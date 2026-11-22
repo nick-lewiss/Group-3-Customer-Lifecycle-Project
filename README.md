@@ -1,21 +1,16 @@
-# Daily Puzzle
+# React + Vite
 
-Built by: Declan Ross and Nicholas Lewis
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What it is
-A daily puzzle website with Free, Plus and Pro memberships. New users get a 7-day Pro trial.
+Currently, two official plugins are available:
 
-## Tech stack
-React (with Vite). Coming later: Supabase, Vercel, Python and Stripe.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Run it on your computer
-1. `git clone` this repo and 'cd' into it
-2. `npm install`
-3. `npm run dev`
-4. open http://localhost:5173
+## React Compiler
 
-## Live site
-Coming in week 3.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Progress
-- [ ] Week 1: clickable prototype
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
